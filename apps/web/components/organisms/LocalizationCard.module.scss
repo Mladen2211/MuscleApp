@@ -1,0 +1,34 @@
+.section {
+  width: 100%;
+}
+
+.label {
+  margin-bottom: 0.5rem;
+}
+
+.panel {
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.iconBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(59, 130, 246, 0.1);
+  color: #3b82f6;
+  font-size: 1.25rem;
+
+  :global(.dark) & {
+    background: rgba(59, 130, 246, 0.2);
+    color: #60a5fa;
+  }
+}

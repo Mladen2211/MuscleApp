@@ -1,0 +1,14 @@
+node_modules
+.pnpm-store
+.turbo
+.next
+dist
+build
+coverage
+.git
+.gitignore
+.vscode
+.env
+.env.*
+Dockerfile*
+docker-compose.yml

@@ -1,0 +1,78 @@
+.card {
+  padding: 28px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.iconShell {
+  position: relative;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.iconCircle {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #fff;
+  background: #e2e8f0;
+  color: #cbd5e1;
+  font-size: 28px;
+  box-shadow: 0 10px 32px rgba(15, 23, 42, 0.08);
+}
+
+.iconCircleDone {
+  background: #dcfce7;
+  color: #22c55e;
+  box-shadow: 0 12px 40px rgba(34, 197, 94, 0.2);
+}
+
+.statePill {
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 6px 12px;
+  font-size: 10px;
+  font-weight: 800;
+  border-radius: 999px;
+  background: #e2e8f0;
+  color: #475569;
+  border: 1px solid #fff;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
+}
+
+.stateDone {
+  background: #22c55e;
+  color: #0f172a;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.title {
+  font-weight: 800 !important;
+}
+
+.subtitle {
+  color: #64748b;
+  font-weight: 600 !important;
+}
+
+.success {
+  color: #16a34a;
+}
+
+.action {
+  font-weight: 800 !important;
+  border-radius: 16px !important;
+}

@@ -1,0 +1,26 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 4px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.title {
+  letter-spacing: -0.02em;
+  font-weight: 800 !important;
+}
+
+.subtitle {
+  color: #64748b;
+  font-weight: 600 !important;
+}
+
+:global(.dark) .subtitle {
+  color: #94a3b8;
+}

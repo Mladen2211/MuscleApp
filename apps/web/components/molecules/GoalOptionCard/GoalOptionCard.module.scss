@@ -1,0 +1,108 @@
+.wrapper {
+  display: block;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  transition: all 0.2s ease;
+  background: rgba(255, 255, 255, 0.7);
+  gap: 12px;
+}
+
+.card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 32px rgba(15, 23, 42, 0.08);
+}
+
+.selected {
+  border-color: #2563eb;
+  box-shadow: 0 12px 36px rgba(37, 99, 235, 0.18);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.iconBox {
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #0f172a;
+  font-size: 18px;
+}
+
+.primary {
+  background: #e0ecff;
+  color: #1d4ed8;
+}
+
+.rose {
+  background: #ffe4e6;
+  color: #fb7185;
+}
+
+.orange {
+  background: #ffedd5;
+  color: #fb923c;
+}
+
+.blue {
+  background: #e0f2fe;
+  color: #38bdf8;
+}
+
+.emerald {
+  background: #d1fae5;
+  color: #34d399;
+}
+
+.purple {
+  background: #ede9fe;
+  color: #a78bfa;
+}
+
+.title {
+  font-weight: 800 !important;
+}
+
+.description {
+  color: #64748b;
+  font-weight: 600 !important;
+}
+
+:global(.dark) .card {
+  background: rgba(15, 23, 42, 0.6);
+  border-color: #1e293b;
+}
+
+:global(.dark) .description {
+  color: #94a3b8;
+}
+
+.check {
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  background: #e2e8f0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: transparent;
+  transition: all 0.2s ease;
+}
+
+.checkActive {
+  background: #2563eb;
+  color: #fff;
+  transform: scale(1.05);
+}

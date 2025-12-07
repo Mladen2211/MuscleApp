@@ -1,0 +1,39 @@
+:root {
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #0f172a;
+  background: #f1f5f9; /* Slate-100 */
+  transition: background 0.4s ease, color 0.3s ease;
+}
+
+:global(.dark) body {
+  background: #0f172a; /* Slate-900 */
+  color: #f8fafc;
+}
+
+/* Utility classes */
+.text-strong {
+  font-weight: 800;
+}
+
+.subtitle {
+  color: #64748b;
+}
+
+:global(.dark) .subtitle {
+  color: #94a3b8;
+}
+
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom), 1.25rem);
+}
+
+.pt-safe {
+  padding-top: max(env(safe-area-inset-top), 1.25rem);
+}

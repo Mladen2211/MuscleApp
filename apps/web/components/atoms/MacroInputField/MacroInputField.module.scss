@@ -1,0 +1,42 @@
+.wrapper {
+  position: relative;
+}
+
+.field {
+  border-radius: 18px;
+  font-weight: 800;
+  text-align: center;
+  padding: 1rem;
+}
+
+.input {
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.05rem;
+}
+
+.label {
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #94a3b8;
+  pointer-events: none;
+  font-weight: 700;
+}
+
+.protein :global(.MuiOutlinedInput-notchedOutline) {
+  border-color: #3b82f6;
+}
+
+.fat :global(.MuiOutlinedInput-notchedOutline) {
+  border-color: #f59e0b;
+}
+
+.carbs :global(.MuiOutlinedInput-notchedOutline) {
+  border-color: #10b981;
+}

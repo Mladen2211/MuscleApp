@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Turbo / pnpm cache
+.turbo/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+.next/
+.expo/
+android/
+ios/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env files
+.env
+.env.*
+.envrc
+
+# Misc
+.DS_Store
+coverage/
+.tmp/
+.cspell

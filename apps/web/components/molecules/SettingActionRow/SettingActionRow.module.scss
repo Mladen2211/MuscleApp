@@ -1,0 +1,28 @@
+.row {
+  justify-content: space-between;
+  padding: 12px 18px !important;
+  color: #1e293b !important;
+  text-transform: none !important;
+  font-weight: 700 !important;
+  border-radius: 0 !important;
+}
+
+.bordered {
+  border-bottom: 1px solid rgba(226, 232, 240, 0.6);
+}
+
+.danger {
+  color: #e11d48 !important;
+}
+
+.icon {
+  color: #94a3b8;
+}
+
+.row:hover .icon {
+  color: #2563eb;
+}
+
+.danger:hover .icon {
+  color: #e11d48;
+}

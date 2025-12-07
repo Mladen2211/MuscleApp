@@ -1,0 +1,31 @@
+{
+  "name": "muscleapp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Turborepo mono-repo housing the MuscleApp web, API, and mobile clients.",
+  "engines": {
+    "node": ">=20.11.1",
+    "pnpm": ">=8.15.0"
+  },
+  "packageManager": "pnpm@8.15.5",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "format": "turbo run format",
+    "clean": "turbo run clean"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1",
+    "turbo": "^2.1.3",
+    "typescript": "^5.3.3"
+  }
+}

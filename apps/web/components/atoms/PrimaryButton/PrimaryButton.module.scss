@@ -1,0 +1,16 @@
+.button {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: #fff;
+  font-weight: 800;
+  padding: 1rem;
+  border-radius: 18px;
+  text-transform: none;
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+}
+
+.button:active {
+  transform: translateY(1px);
+}

@@ -1,0 +1,44 @@
+.card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.iconWrap {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0e7ff;
+  color: #4338ca;
+}
+
+.title {
+  font-weight: 800 !important;
+  margin: 0;
+}
+
+.caption {
+  color: #94a3b8;
+  font-weight: 600 !important;
+}
+
+.field {
+  max-width: 120px;
+}
+
+.input {
+  text-align: right;
+  font-weight: 800;
+  font-size: 1.15rem;
+}
